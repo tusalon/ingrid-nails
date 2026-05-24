@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Ingrid Nails
 
-const CACHE_NAME = 'ingrid-nails-v25';
+const CACHE_NAME = 'ingrid-nails-v29';
 const urlsToCache = [
   '/ingrid-nails/',
   '/ingrid-nails/index.html',
