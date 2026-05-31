@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Ingrid Nails
 
-const CACHE_NAME = 'ingrid-nails-v29';
+const CACHE_NAME = 'ingrid-nails-v47';
 const urlsToCache = [
   '/ingrid-nails/',
   '/ingrid-nails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/ingrid-nails/icons/icon-152x152.png',
   '/ingrid-nails/icons/icon-192x192.png',
   '/ingrid-nails/icons/icon-384x384.png',
-  '/ingrid-nails/icons/icon-512x512.png'
+  '/ingrid-nails/icons/icon-512x512.png',
+  '/ingrid-nails/vendor/react.production.min.js',
+  '/ingrid-nails/vendor/react-dom.production.min.js',
+  '/ingrid-nails/vendor/babel.min.js',
+  '/ingrid-nails/vendor/bcrypt.min.js',
+  '/ingrid-nails/vendor/tailwind-browser.js',
+  '/ingrid-nails/vendor/lucide/lucide.css',
+  '/ingrid-nails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
